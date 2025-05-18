@@ -12,7 +12,7 @@ from typeguard import typechecked
 
 @typechecked
 class Terminal:
-    NAME_FILE = 'terminals.txt'
+    NAME_FILE = 'POO/Ejercicios/Terminales/terminals.txt'
 
     def __init__(self, phone_number: str):
         if len(phone_number) != 9:
