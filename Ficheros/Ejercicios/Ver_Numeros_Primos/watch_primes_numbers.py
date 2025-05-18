@@ -1,10 +1,10 @@
 """
-Programa que guarda en un fichero los números primos del 1 al 500
+Programa que guarda en un fichero los números primos del 1 al 500 y los muestra
 
 Autor: Ángel Ortiz Torres
 """
 
-NAME_FILE_NUMBERS = "Ficheros/Ejercicios/Numeros_Primos/primes_numbers.txt"
+NAME_FILE_NUMBERS = "Ficheros/Ejercicios/Ver_Numeros_Primos/primes_numbers.txt"
 
 def is_prime(n):
     if n < 2:
